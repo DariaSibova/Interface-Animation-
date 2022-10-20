@@ -40,3 +40,24 @@
     padding: 40px 20px;
   }
   
+
+  .card__footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;right: 0;
+    background: var(--second-color);
+    opacity: 0;
+    animation: footer-animation 1s 2s ease forwards;
+  }
+  
+  .figure{
+    display: block;
+    background: var(--second-color);
+  }
+  
+  .line{
+    width: 50px;
+    height: 10px;
+    border-radius: 10px;
+  }
+  
