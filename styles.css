@@ -61,3 +61,13 @@
     border-radius: 10px;
   }
   
+  .line_small{
+    height: 1px;
+    width: 100%;
+  }
+  
+  .circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
