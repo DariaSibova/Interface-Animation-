@@ -23,3 +23,20 @@
     opacity: 0;
     animation: card-animation 1s 1s ease forwards;
   }
+  .card__header {
+    height: 80px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    animation: header-animation 1s 2s ease forwards;
+  }
+  
+  .card__main{
+    padding: 40px 20px;
+  }
+  
