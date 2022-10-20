@@ -5,3 +5,21 @@
     --my-messages-color:#9FA8DA;
     --size:2px;
   }
+  body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: body-animation 1s ease forwards;
+  }
+  
+  .card{
+    background: #fff;
+    width: 350px;
+    height: 500px;
+    box-shadow: 5px 5px 15px rgba(0, 0,0,0.2);
+    position: relative;
+    opacity: 0;
+    animation: card-animation 1s 1s ease forwards;
+  }
